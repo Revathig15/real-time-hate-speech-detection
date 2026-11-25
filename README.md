@@ -5,7 +5,7 @@ PRJ_100
 
 ## Project Description
 A real-time, context-aware hate speech detection system for
-Hindi, Tamil, Bengali and Telugu using IndicBERT.
+Hindi, Tamil, Kannada and Telugu using IndicBERT.
 
 ## Objectives
 
@@ -13,10 +13,7 @@ Hindi, Tamil, Bengali and Telugu using IndicBERT.
 - Handling of code-mixed and Romanized text
 - Context-aware detection
 - Confidence and uncertainty estimation
-- Explainable predictions
-- Respectful rewriting of harmful content
-- Human review for uncertain cases
-
+- 
 ## Proposed System Flow
 
 Input
@@ -24,8 +21,6 @@ Input
 → IndicBERT Multilingual Encoding
 → Hate/Non-Hate Classification
 → Confidence & Uncertainty Estimation
-→ Explainability
-→ Respectful Rewrite / Human Review
 
 ## Technologies
 
@@ -36,8 +31,6 @@ Input
 - Pandas
 - NumPy
 - Scikit-learn
-- SHAP / LIME
-- Streamlit
 
 ## Team Members
 
